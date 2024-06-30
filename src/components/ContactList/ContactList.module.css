@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 15px;
+}
+
+.listItem {
+  width: 360px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 5px 5px #888;
+}
+
+.listItem:hover,
+.listItem:focus {
+  border-color: #7277e3;
+  box-shadow: 0 5px 5px #7277e3;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}

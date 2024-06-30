@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 12px;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.btnContainer {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  background-color: rgb(125, 126, 126);
+  box-shadow: 0 5px 5px #bababb;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #7277e3;
+}

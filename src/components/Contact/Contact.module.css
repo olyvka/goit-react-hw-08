@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.userPhone,
+.userName {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background: none;
+  padding: 10px;
+}
+
+.btn:hover .icon,
+.btn:focus .icon {
+  color: #7277e3;
+}
+
+.input {
+  width: 260px;
+  padding: 0px 0px;
+  border: none;
+  border-bottom: 1px solid #2a363b;
+  outline: none;
+  transition: 0.3s;
+  box-shadow: 0 5px 5px -5px #888;
+}
+
+.input:hover,
+.input:focus {
+  border-color: #7277e3;
+  box-shadow: 0 5px 5px -5px #7277e3;
+}
+
+.error {
+  color: red;
+  padding: 0;
+  font-size: 10px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #7277e3;
+  text-align: center;
+  width: 300px;
+}
+
+.modalBtnContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.modalDeleteBtn,
+.modalCloseBtn {
+  border-radius: 5px;
+  border: none;
+  background: none;
+  padding: 10px;
+  background-color: rgb(125, 126, 126);
+  box-shadow: 0 5px 5px #bababb;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.modalDeleteBtn:hover,
+.modalDeleteBtn:focus,
+.modalCloseBtn:hover,
+.modalCloseBtn:focus {
+  background-color: #7277e3;
+}
